@@ -16,6 +16,8 @@ router.get('/sobre',homeController.sobre)
 
 router.get('/vagas',homeController.vagas)
 
+router.get('/vaga', homeController.vaga)
+
 router.get('/loja',homeController.loja)
 
 router.get('/contato',homeController.contato)
@@ -26,7 +28,7 @@ router.get('/cadFinalizado',homeController.cadFinalizado)
 
 router.get('/criarContaOng',ongController.contaOng)
 
-router.get('/contaOng',ongController.contaOng)
+router.get('/criarContaUsuario',userController.contaUsuario)
 
 //rotas de visualização login e register
 router.get('/login',authController.login)
