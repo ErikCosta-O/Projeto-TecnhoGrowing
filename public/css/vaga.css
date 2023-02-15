@@ -1,0 +1,198 @@
+.center{
+    display: flex;
+    justify-content: left;
+    margin-top: 30vh;
+    margin-left: 30vh;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 31vh;
+}
+.img img{
+    border-radius: 2vh;
+    border: #cdd6dd solid 0.60vh;
+    width: 400px;
+    height: 300px;    
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    left: 1vh;
+}
+.desc-conteudo{
+    color: #212529;
+    width: 100%;
+    height: 33pc;
+    position: relative;
+    bottom: 16vh;
+    border-radius: 0vh 2vh;
+    border-left: #7ea3f1 solid 0.40vh;
+    border-bottom: #7ea3f1 solid 0.60vh;
+}
+.nome-ong{
+    display: flex;
+    justify-content: left;
+    font-size: 2.5rem;
+    color: #212529;
+    font-weight: 600;
+    border-bottom: #fbc55f solid 0.50vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.desc-ONG p{
+    color: #212529;
+    font-size: 1.2rem;
+}
+.dadosONG, .dadosONGredes, .desc-ONG{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: #212529;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: #fbc55f solid 0.50vh;
+}
+.dadosONGredes{
+    border-bottom: transparent;
+}
+.dadosONG li, .dadosONGredes li{
+    margin-top: 5px;
+    list-style: none;
+}
+.dadosONGredes a{
+    text-decoration: none;
+    color: #212529;
+}
+.dadosONGredes a:hover{
+    text-shadow: 0px 0px 14px #b9b9b9;
+    text-decoration: underline 2px #2b2d42;
+    transition-duration: 200ms;
+    transition-delay: 10ms;
+}
+.redes, .lblDados, .lblDesc{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 90%;
+    color: #212529;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#descVaga{
+    display: grid;
+    justify-content: center;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    height: 40pc;
+    border-radius: 0vh 2vh;
+    border-left: #7ea3f1 solid 0.40vh;
+    border-bottom: #7ea3f1 solid 0.60vh;
+    margin-bottom: 5vh;
+}
+.nomeVaga{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #212529;
+    font-weight: 600;
+    width: 100%;
+    height: min-content;
+}
+.descConteudoVaga{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    bottom: 1vh;
+    margin-left: 5px;
+    width: 100%;
+    height: min-content;
+}
+.descConteudoVaga p{
+    text-align: left;
+    font-size: 1.2rem;
+    color: #212529;
+    border-bottom: #fbc55f solid 0.50vh;
+}
+.descVaga2{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 1vh;
+}
+.lbldesc2{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #212529;
+    font-weight: 500;
+    width: 100%;
+    height: min-content;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.descVaga2 li{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin-top: 10px;
+    position: relative;
+    bottom: 2vh;
+    font-size: 1.2rem;
+}
+.descVaga2 li p{
+    margin-left: 5px;
+}
+.descVaga2 img{
+    width: 25px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    background: #fbc55f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #212529;
+    border: 0.2vh solid black;
+    border-radius: 0.8vh;
+    box-shadow: 0.1em 0.1em #333;
+    cursor: pointer;
+    margin-top: 0px;
+    height: 40px;
+}
+.descVaga2 .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-top: 2vh;
+    justify-content: last baseline;
+}
+.btn button{
+    margin-bottom: 5px;
+}
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.12em 0.12em #333;
+}
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #333;
+}
+#enviar a{
+    color: #333;
+    text-decoration: none;
+}
