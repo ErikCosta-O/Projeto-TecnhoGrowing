@@ -1,0 +1,86 @@
+/*estilo pagina de contato só pessoas 
+autorizadas podem modificar*/
+.geral{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 25vh;
+}
+.container1{
+    width: 600px;
+    margin-right: 10vh;
+}
+.container1 .titulo{
+    margin-top: 6vh;
+    font-size: 2.5rem;font-weight: 600;
+}
+.container1 .desc{
+    margin-bottom: 15vh;
+    font-size: 1.5rem;
+}
+.container2,.data{
+    display: flex;
+    justify-content: center;
+}
+.container2 .data input{
+    margin-top: 10px;
+    border-radius: 1vh;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 90%;
+    height: 30px;
+    border: #cdd6dd solid 0.50vh;
+    border-bottom: #fbc55f solid 0.50vh;
+    border-right: #fbc55f solid 0.50vh;
+}
+.container2 input:focus{
+    outline: 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    transform: scale(1.02);
+}
+textarea{
+    outline: 0;
+    margin-top: 10px;
+    width: 92%;
+    border-radius: 1vh;
+    font-size: 18px;
+    border: #cdd6dd solid 0.50vh;
+    border-bottom: #fbc55f solid 0.50vh;
+    border-right: #fbc55f solid 0.50vh;
+    resize: none;
+}
+.container2 textarea:focus{
+    outline: 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    transform: scale(1.02);
+}
+button{
+    display: flex;
+    justify-content: center;
+    background: #fbc55f;
+    padding: 0.6em 1.3em;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 900;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+    border: 0.2vh solid black;
+    border-radius: 0.8vh;
+    box-shadow: 0.1em 0.1em #333;
+    cursor: pointer;
+    height: 40px;
+}
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.12em 0.12em #333;
+}
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #333;
+}
+#enviar a{
+    color: #333;
+    text-decoration: none;
+}

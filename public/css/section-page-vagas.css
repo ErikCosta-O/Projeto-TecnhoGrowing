@@ -1,0 +1,51 @@
+.categorias{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    position: relative;
+    bottom: 20vh;
+    width: 100%;
+}
+.categorias label{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.categorias select{
+    border-radius: 1vh;
+    align-items: center;
+    color: #212529;
+    font-size: 1rem;
+    border: #cdd6dd solid 0.50vh;
+    border-bottom: #fbc55f solid 0.50vh;
+    border-right: #fbc55f solid 0.50vh;
+}
+.categorias select:focus{
+    outline: 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+}
+.section2{
+    position: relative;
+    top: -20vh;
+}
+.volutario{
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 30vh;
+    text-align: left;
+    margin-left: 10vh;
+    width: 46pc;
+}
+.loja{
+    position: fixed;
+    right: 5px; 
+    z-index:20000; 
+    cursor: pointer;
+    bottom: 9.8vh;
+    z-index:20000; 
+}
+.loja img{
+    width: 70px;
+}

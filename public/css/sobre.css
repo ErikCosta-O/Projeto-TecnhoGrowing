@@ -1,0 +1,39 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10vh 10vh;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+.cont1, .cont2, .cont3{
+    font-size: 1.1rem;
+    font-weight: 200;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    color: #212529;
+}
+.cont1{
+    border-left: #fbc55f 5px solid;
+}
+.cont2{
+    border-left: #7ea3f1 5px solid;
+    border-right: #7ea3f1 5px solid;
+}
+.cont3{
+    border-right: #fbc55f 5px solid;
+}
+.assunto{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,135 @@
+/*conteudo de login */
+.geral{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.container1{
+    background-color: #7ea3f1;
+    width: 400px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+    color: #fffdf7;
+    border-top: #2b2d42 solid 0.40vh;
+    border-left:#2b2d42 solid 0.40vh;
+    border-bottom: #2b2d42 solid 0.70vh;
+}
+.container1 .texto1{
+    margin-top: 100px;
+}
+.texto1 .btn{
+    display: flex;
+    justify-content: center;
+}
+.btn a, .btn2 a{
+    text-decoration: none;
+}
+.container1 h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.container1 p{
+    display: grid;
+    text-align: center;
+    font-size: 1rem;
+}
+button{
+    display: flex;
+    justify-content: center;
+    background: #fbc55f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+    border: 0.2vh solid black;
+    border-radius: 0.8vh;
+    box-shadow: 0.1em 0.1em #333;
+    cursor: pointer;
+    margin-top: 0px;
+    height: 40px;
+}
+.container1 .btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.container1 .btn a{
+    color: #212529;
+    text-decoration: none;
+}
+.btn button{
+    margin-bottom: 5px;
+}
+.container2 .btn2{
+    display: flex;
+    justify-content: center;
+    display: grid;
+}
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.12em 0.12em #333;
+}
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #333;
+}
+#criar p{
+    color: #333;
+    text-decoration: none;
+}
+#entrar p{
+    color: #333;
+    text-decoration: none;
+}
+/*css botão Acessar*/
+.container2{
+    background-color: #fffdf7;
+    border-radius: 0px 10px 10px 0px;
+    width: 360px;
+    display: grid;
+    justify-content: center;
+    border-top: #2b2d42 solid 0.40vh;
+    border-right:#2b2d42 solid 0.70vh;
+    border-bottom: #2b2d42 solid 0.70vh;
+}
+.container2 .texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: #212529;
+}
+.container2 .data{
+    position: relative;
+    bottom: 50px;
+    display: grid;
+    margin-top: 10px;
+}
+.container2 .data input{
+    margin-top: 10px;
+    border-radius: 1vh;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 90%;
+    height: 30px;
+    border: #cdd6dd solid 0.50vh;
+    border-bottom: #fbc55f solid 0.50vh;
+    border-right: #fbc55f solid 0.50vh;
+}
+
+input:focus{
+    outline: 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    transform: scale(1.02);
+}
+input::placeholder{
+    font-size: 15px;
+    color: #6c757d6b;
+    font-weight: 700;
+}

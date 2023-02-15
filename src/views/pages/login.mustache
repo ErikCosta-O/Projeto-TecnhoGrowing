@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer-page-login.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <link rel="icon" type="imagem/png" href="../images/iconeSite.png">
+    <title>Techno Growing | Entrar</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <!--header aqui-->
+        <header>
+            <div class="Container">
+                <div class="logo">
+                    <img src="../images/logotipo_sem_ONG- sem fundo.png">
+                </div> 
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <a href="../"><li>Inicio</li></a>
+                            <a href="../vagas"><li>Vagas</li></a>
+                            <a href="../loja"><li>Loja</li></a>
+                            <a href="../sobre"><li>Sobre</li></a>
+                            <a href="../contato"><li>Contato</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header aqui-->
+        <!--Conteudo da pagina-->
+        <div class="geral">
+            <div class="container1">
+                <div class="texto1">
+                    <p><h1>Bem Vindo</h1></p>
+                    <p><h4>Já possui conta ?</h4></p>
+                    <div class="btn">
+                        <button type="submit" id="criar"><a href="../criarContaUsuario">Sou Voluntario</a></button>
+                        <button type="submit" id="criar"><a href="../criarContaOng">Sou ONG</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="texto">Fazer Login</div>
+                <div class="container">
+                    <form action="#">
+                        <div class="data">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="data">
+                            <input type="password" placeholder="Senha" required>
+                        </div>
+                        <div class="btn2">
+                            <a href="../login"><button type="submit" id="entrar">Entrar</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Conteudo da pagina-->
+        <!--footer aqui se prescisar-->
+    </div>
+    <script src="../js/load.js"></script>
+</body>
+</html>

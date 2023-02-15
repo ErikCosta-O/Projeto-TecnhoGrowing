@@ -1,0 +1,58 @@
+/*parte para funcionar no mobile*/
+@media screen and (max-width: 767px){
+    .teste{
+        display: flex;
+        justify-content: center;
+        display: grid;
+        text-align: center;
+    }
+    .imagem img{
+        width: 280px;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+    .container .data2{
+        display: flex;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .container .data2{
+        font-size: 11px;
+        color: #333;
+        font-weight: 700;
+    }
+    .links{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container .data input{
+        margin-top: 10px;
+        border-radius: 1vh;
+        font-size: 18px;
+        padding-left: 5px;
+        width: 90%;
+        height: 30px;
+        border: #cdd6dd solid 0.50vh;
+        border-bottom: #fbc55f solid 0.50vh;
+        border-right: #fbc55f solid 0.50vh;
+    }
+    .data input:focus{
+        outline: 0;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+        transform: scale(1.02);
+    }
+    .data input::placeholder{
+        font-size: 15px;
+        color: #6c757d6b;
+        font-weight: 700;
+    }
+    .links .p1{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .links .p2{
+        color: #8338ec;
+        font-size: 10px;
+    }
+}

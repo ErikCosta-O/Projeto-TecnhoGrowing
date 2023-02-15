@@ -1,0 +1,111 @@
+.perfil{
+    color: #212529;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.perfil-usuario{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    width: 100%;
+    height: 100vh;
+}
+.container-geral{
+    width: 50%;
+}
+.conteudo-usuario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: #eff1f3;
+    border: #7ea3f1 solid 0.40vh;
+    border-bottom: #7ea3f1 solid 0.60vh;
+    box-shadow: 0px 5px 21px 2px rgba(43,45,66,0.3);
+}
+.info{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    left: 2vh;
+    color: #212529;
+}
+.endereco{
+    list-style: none;
+}
+.nome-usuario, .social{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: 10vh;
+    margin-top: 5px;
+}
+.contato-usuario{
+    display: flex;
+    justify-content: left;
+    height: min-content;
+    position: relative;
+    top: 20vh;
+    height: min-content;
+}
+.exp p{
+    width: 500px;
+    height: min-content;
+    text-align: left;
+    position: relative;
+    top: 10vh;
+    margin-top: 5px;
+    margin-bottom: 10vh;
+}
+.nome-usuario{
+    font-size: 2rem;
+    width: 30pc;
+}
+.contato-usuario{
+    font-size: 2rem;
+    width: 30pc;
+}
+.exp{
+    font-size: 1.2rem;
+    height: 100px;
+    color: #333;
+}
+.social{
+    position: relative;
+    top: 18vh;
+    font-size: 1.2rem;
+    height: 40px;
+    border-bottom: #2b2d42 solid 0.40vh
+}
+.social a{
+    text-decoration: none;
+}
+.social li, .contato li{
+    display: grid;
+    justify-content: left;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 5px;
+}
+.endereco{
+    position: relative;
+    top: 10pc;
+    font-size: 1.2rem;
+    height: 100px;
+}
+.endereco li{
+    display: grid;
+    justify-content: left;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 5px;
+}
+.info-contato{
+    margin-top: 15px;
+}

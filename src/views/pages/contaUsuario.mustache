@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer.css">
+    <link rel="stylesheet" href="../css/contaUsuario.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <link rel="icon" href="../images/iconeSite.png">
+    <title>Techno Growing | Voluntario </title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <!--header aqui-->
+        <header>
+            <div class="Container">
+                <div class="logo">
+                    <img src="../images/logotipo_sem_ONG- sem fundo.png">
+                </div> 
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <a href="../"><li>Inicio</li></a>
+                            <a href="../login"><li>Voltar</li></a>
+                            <a href="../vagas"><li>Vagas</li></a>
+                            <a href="../loja"><li>Loja</li></a>
+                            <a href="../sobre"><li>Sobre</li></a>
+                            <a href="../contato"><li>Contato</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header aqui-->
+        <!--Conteudo da pagina-->
+        <div class="geral">
+            <div class="container1">
+                <div class="texto1">Cadastrar Usuário</div>
+                <form action="../cadastro finalizado/cadFinalizado.html">
+                    <div class="data">
+                        <label>Seu nome Completo</label>
+                        <input type="text" placeholder="Nome Completo" required>
+                    </div>
+                    <div class="data">
+                        <label>Data de nascimento</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="data">
+                        <label>Seu melhor Email</label>
+                        <input type="text" name="email" id="msgemail" onblur="validacaoEmail(f1.email)" required placeholder="Email">
+                    </div>
+                    <div class="data">
+                        <label>Sua Senha</label>
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="data">
+                        <label>Confirme sua Senha</label>
+                        <input type="password" placeholder="Confirmar senha" required>
+                    </div>
+                    <div class="data">
+                        <label>Seu CPF</label>
+                        <input id="id_lock" name="id_lock" required placeholder="CPF" class="verifica_numerico" required="" type="text" maxlength="14" onKeyPress="MascaraGenerica(this, 'CPF');">
+                    </div>
+                    <div class="data">
+                        <label>Telefone com DDD</label>
+                        <input id="id_lock" name="id_lock" required placeholder="Telefone" class="verifica_numerico" required="" type="text" maxlength="14" onKeyPress="MascaraGenerica(this, 'TELEFONE');" >
+                    </div>
+                    <div class="data">
+                        <label>Escolha uma rede Social</label>
+                        <select id="redeSocial">
+                            <option>...</option>
+                            <option value="github">Git Hub</option>
+                            <option value="linkedln">Linkedln</option>
+                            <option value="instagram">Instagram</option>
+                        </select>
+                    </div>
+                    <div class="data">
+                        <label>Selecione sua Experiência</label>
+                        <select id="exp">
+                            <option>...</option>
+                            <option value="iniciante">Iniciante</option>
+                            <option value="intermediario">Intermediario</option>
+                            <option value="avançado">Avançado</option>
+                            <option value="semExp">Sem Experiência</option>
+                        </select>
+                    </div>
+                    <div class="data">
+                        <label>Link da sua rede Social</label>
+                        <input type="url" placeholder="Link">
+                    </div>
+                    <div class="btn">
+                        <button type="submit" id="enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="../js/pontoparaform.js"></script>
+            <script src="../js/cep.js"></script>
+            <script src="validandoemail.js"></script>
+        <div class="outraPagina">
+            <div class="title2">Não é Voluntario? Crie como ONG:</div>
+            <div class="btn2">
+                <a href="../criarContaOng"><button type="submit" id="contato">Sou ONG</button></a>
+            </div>
+        </div>
+        <!--Conteudo da pagina-->
+        <!--footer aqui se prescisar-->
+    </div>
+    <script src="../js/load.js"></script>
+    <script src="../js/cadastro.js"></script>
+
+</body>
+</html>

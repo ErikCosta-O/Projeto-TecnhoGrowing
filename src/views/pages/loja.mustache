@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/load.css">
+    <link rel="stylesheet" href="../css/loja.css">
+    <link rel="stylesheet" href="../css/header&footer.css">
+    <title>Techno Growing | Loja 🛒</title>
+    
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <header>
+            <div class="Container">
+                <div class="logo">
+                    <img src="../images/logotipo_sem_ONG- sem fundo.png">
+                </div> 
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <a href="../"><li>Home</li></a>
+                            <a href="../perfil"><li>Perfil</li></a>
+                            <a href="../vagas"><li>Vagas</li></a>
+                            <a href="../sobre"><li>Sobre</li></a>
+                            <a href="../contato"><li>Contato</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="imagem">
+            <img src="../images/kkkkkk.png">
+        </div>
+        <div class="center">
+            <div class="container">
+                <div class="logo">
+                    <img src="../images/logotipo_sem_ONG- sem fundo.png">
+                </div> 
+                
+                <div class="text">ENCOMENDAR</div>
+                    <form action="#">
+                        <div class="data">
+                            <input type="text" placeholder="Nome" maxlength="120" required>
+                        </div>
+                        <div class="data">
+                            <input onkeypress="mascara(this, cpf)" placeholder="CPF"  maxlength="14"required>
+                        </div>
+
+                        <div class="data">
+                            <input type="email" placeholder="E-mail" maxlength="30" required>
+                        </div>
+                        <div class="data">
+                            <input onkeypress="mascara(this, telefone)"maxlength="15" placeholder="Tel (__) _____-____" type="text" maxlength="14" required>
+                        </div>
+                        <div class="data">
+                            <input type="text" placeholder="Endereço" required>
+                        </div>
+                        
+                        <div class="data">
+                            <Label>Produtos</Label>
+                            <select>
+                                <option selected>Selecione o Produto</option>
+                                <option value="Exclusivo">Conteúdo Exclusivo</option>
+                                <option value="Caderno">Caderno</option>
+                                <option value="Chaveiro">Chaveiro</option>
+                                <option value="Oculos">Armação de Óculos</option>
+                                <option value="Bolsa">Bolsa Sustenável</option>
+                                <option value="Camiseta">Camiseta</option>
+                                <option value="Caderno">Caderno</option>
+                                <option value="Case">Case de Celular</option>
+                                <option value="Cartão VIP">Cartão VIP</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="label"> Forma de Pagamento:</label>
+                                <p class="p">
+                                    <input type="radio" id="Crédito" name="Pagamento" value=" Crédito" required>
+                                    <label for="Crédito"> Crédito</label>
+                                    <input type="radio" id="Debito" name="Pagamento" value=" Débito" required>
+                                    <label for=" Debito"> Débito</label>
+                                </p>     
+                                <div class="containter1">
+                                    <form class="checkout">
+                                        <div class="checkout-header">
+                                            <h1 class="title">
+                                                Pagamento com Cartão
+                                            </h1>
+                                        </div>
+                                        <p class="infoCartao">
+                                            <input type="text" class="checkout-input checkout-name" placeholder="Nome" maxlength="25" required>
+                                            <input type="datetime" class="checkout-input checkout-exp" placeholder="MÊS" maxlength="2"required>
+                                            <input type="datetime" class="checkout-input checkout-exp" placeholder="ANO" maxlength="4" required>
+                                            <input type="datetime" class="checkout-input checkout-card" placeholder="Nómero do cartão"  maxlength="19"required>
+                                            <input type="datetime" class="checkout-input checkout-cvc" placeholder="CVC" maxlength="3" required>
+                                        </p>
+                                    </form>
+                                    <div class="btns">
+                                        <button type="submit" id="confirmar"><a href="#">Confirmar</a></button>
+                                        <button type="submit" id="cancelar"><a href="#">Cancelar</a></button>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script src="../js/loja.js"></script>
+    <script src="../js/load.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer.css">
+    <link rel="stylesheet" href="../css/confirmCad.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <link rel="icon" href="../images/iconeSite.png">
+    <title>Techno Growing | Confirmação de cadastro</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <!--header aqui-->
+        <header>
+            <div class="Container">
+                <div class="logo">
+                    <img src="../images/logotipo_sem_ONG- sem fundo.png">
+                </div> 
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <a href="../"><li>Inicio</li></a>
+                            <a href="../perfil"><li>Perfil</li></a>
+                            <a href="../loja"><li>Loja</li></a>
+                            <a href="../contato"><li>Contato</li></a>
+                            <a href="..//sobre"><li>Sobre</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header aqui-->
+        <!--Conteudo da pagina-->
+        <div class="geral">
+            <div class="container1">
+                <div class="texto1">Confirme seus Dados</div>
+                <form action="../cadastro finalizado/cadFinalizado.html">
+                    <div class="data">
+                        <label>Seu Nome</label>
+                        <input type="text" required placeholder="Nome Completo">
+                    </div>
+                    <div class="data">
+                        <label>Email cadastrado</label>
+                        <input type="email" required placeholder="Email">
+                    </div>
+                    <div class="data">
+                        <label>Telefone com DDD</label>
+                        <input type="text" required placeholder="Telefone">
+                    </div>
+                    <div class="btns">
+                        <button type="submit" id="enviar">Enviar</button>
+                        <button type="reset" id="cancelar">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--Conteudo da pagina-->
+        <!--footer aqui se prescisar-->
+    </div>
+    <script src="../js/load.js"></script>
+</body>
+</html>

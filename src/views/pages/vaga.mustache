@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer-page-vaga.css">
+    <link rel="stylesheet" href="../css/vaga.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <link rel="icon" type="imagem/png" href="../images/iconeSite.png">
+    <title>Techno Growing | {{Nome da Vaga}}</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <header>
+            <div class="Container">
+                <div class="logo">
+                    <img src="../images/logotipo_sem_ONG- sem fundo.png">
+                </div> 
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <a href="../"><li>Inicio</li></a>
+                            <a href="../vagas"><li>Vagas</li></a>
+                            <a href="https://technogrowing.wordpress.com/"><li>Loja</li></a>
+                            <a href="../sobre"><li>Sobre</li></a>
+                            <a href="../contato"><li>Contato</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="center">
+                <!--Imagem da ong aqui-->
+                <div class="img"><img src="../images/planta.png"></div>
+                <div class="conteudo">
+                    <div class="desc-conteudo">
+                        <div class="nome-ong">
+                            <p>Nome da ong</p>
+                        </div>
+                        <label class="lblDesc">Descriçao</label>
+                        <div class="desc-ONG">
+                            <p></p>
+                        </div>
+                        <label class="lblDados">Dados da Ong</label>
+                        <div class="dadosONG">
+                            <ul>
+                                <li>Endereço:</li>
+                                <li>Bairro: </li>
+                                <li>Cidade:</li>
+                                <li>Categoria:</li>
+                            </ul>
+                        </div>
+                        <div class="redes"><p>Redes Sociais</p></div>
+                        <div class="dadosONGredes">
+                            <ul>
+                                <a href="#"><li>Facebook</li></a>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="descVaga">
+            <div class="nomeVaga"><p>Nome da Vaga</p></div>
+            <div class="descConteudoVaga"><p><!--o formato é assim e o texto pode ficar em totalmente em uma linha-->
+                
+            </p>
+            </div>
+            <div class="descVaga2">
+                <label class="lbldesc2">Horários e Endereço da vaga</label>
+                <ul>
+                    <li><img src="../images/calendario.png"><p></p></li>
+                    <li><img src="../images/relogio-nove.png"><p></p></li>
+                    <li>Endereço:</li>
+                </ul>
+                <div class="btn">
+                    <button type="submit" id="enviar"><a href="../confirma">Canditatar</a></button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../js/load.js"></script>
+</body>
+</html>
