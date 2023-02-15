@@ -5,6 +5,7 @@ export const contaUsuario = (req:Request, res:Response) =>{
     res.render('pages/ContaUsuario')
 }
 
+
 // export const login = (req:Request, res:Response) => {
 //     res.render('pages/login')
 // }
