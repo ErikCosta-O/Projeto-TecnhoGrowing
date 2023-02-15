@@ -17,31 +17,27 @@ export const home = async (req:Request, res:Response) => {
     
     res.render('pages/home')
 }
-
 export const perfil = (req:Request, res:Response) =>{
     res.render('pages/perfil')
 }
-
 export const sobre = (req:Request, res:Response) =>{
     res.render('pages/sobre')
 }
-
 export const vagas = (req:Request, res:Response) =>{
     res.render('pages/vagas')
 }
-
 export const loja = (req:Request, res:Response) =>{
     res.render('pages/loja')
 }
-
 export const contato = (req:Request, res:Response) =>{
     res.render('pages/contato')
 }
-
+export const vaga =(req:Request, res:Response)=>{
+    res.render('pages/vaga')
+}
 export const confirmCad = (req:Request, res:Response) =>{
     res.render('pages/confirmCad')
 }
-
 export const cadFinalizado = (req:Request, res:Response) =>{
     res.render('pages/cadFinalizado')
 }
