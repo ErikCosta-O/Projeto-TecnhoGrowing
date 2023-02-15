@@ -22,9 +22,9 @@ router.get('/loja',homeController.loja)
 
 router.get('/contato',homeController.contato)
 
-router.get('/confirmCad',homeController.confirmCad)
+router.get('/confirma', homeController.confirma)
 
-router.get('/cadFinalizado',homeController.cadFinalizado)
+router.get('/finalizado',homeController.finalizado)
 
 router.get('/criarContaOng',ongController.contaOng)
 

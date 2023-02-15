@@ -38,6 +38,9 @@ export const vaga =(req:Request, res:Response)=>{
 export const confirmCad = (req:Request, res:Response) =>{
     res.render('pages/confirmCad')
 }
-export const cadFinalizado = (req:Request, res:Response) =>{
-    res.render('pages/cadFinalizado')
+export const finalizado = (req:Request, res:Response) =>{
+    res.render('pages/finalizado')
+}
+export const confirma =(req:Request, res:Response)=>{
+    res.render('pages/confirmacao')
 }
