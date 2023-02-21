@@ -44,92 +44,138 @@
         </div>
     </section>
     <div class ="volutario">Vagas de voluntariado</div>
-    <div class="categorias">
-        <label for="class">Selecione a categoria</label>
-            <select id="class">
-                <option value="todos">Todos</option>
-                <option value="animais">Animais</option>
-                <option value="reabilitacao">Reabilitação</option>
-                <option value="lgbt">LGBT</option>
-            </select>
+    <div class="busca">
+        <input type="text" id="filtroCards" class="form-control" onkeyup="aplicaFiltroCards()" onfocus="focar()" onblur="sair()" placeholder="Filtro...">
     </div>
     <section class="section2">
-        <div class="container-cards">
-            <div class="card">
-                <img src="./assets/images/combate.png" class="card-media" alt="imagem aqui"/>
-                <div class="card-details">
-                    <h2 class="card-head">detales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus excepturi odit, unde praesentium qui mollitia suscipit 
-                        nemo debitis repudiandae cumque inventore voluptatem, nihil optio sapiente voluptas quo sunt. Rem, dolorum.</p>
+        <div id="containerCards" class="containers-Geral">
+            <div class="row">
+               <div class="card-deck">
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: Web</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
                 </div>
-                <a href="../vaga" class="saiba">Saiba mais</a>
-                <div class="btn">
-                    <button type="submit" id="entrar"><a href="../vaga">Ver mais</a></button>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: Desing</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
                 </div>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: Front-end</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: Back-end</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: TI</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: TI</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: Web-desing</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: Web</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!--fim do card-->
+                <!--inicio do card-->
+                <div class="card">
+                    <div class="card-body">
+                       <img src="./assets/images/clinica.png" class="card-media">
+                       <h5 class="cardTitle">titulo <p class="categoria">: Back-end</p></h5>
+                       <p class="card-text">desc</p>
+                       <a href="../SobreAvaga/sobreAvaga.html" class="saiba">Saiba mais</a>
+                        <div class="btn">
+                            <button type="submit" id="entrar"><a href="../SobreAvaga/sobreAvaga.html">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!--fim do card-->
             </div>
-            <div class="card">
-                <img src="./assets/images/combate.png" class="card-media" alt="imagem aqui"/>
-                <div class="card-details">
-                    <h2 class="card-head">detales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus excepturi odit, unde praesentium qui mollitia suscipit 
-                        nemo debitis repudiandae cumque inventore voluptatem, nihil optio sapiente voluptas quo sunt. Rem, dolorum.</p>
-                </div>
-                <a href="../vaga" class="saiba">Saiba mais</a>
-                <div class="btn">
-                    <button type="submit" id="entrar"><a href="../vaga">Ver mais</a></button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/images/combate.png" class="card-media" alt="imagem aqui"/>
-                <div class="card-details">
-                    <h2 class="card-head">detales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus excepturi odit, unde praesentium qui mollitia suscipit 
-                        nemo debitis repudiandae cumque inventore voluptatem, nihil optio sapiente voluptas quo sunt. Rem, dolorum.</p>
-                </div>
-                <a href="../vaga" class="saiba">Saiba mais</a>
-                <div class="btn">
-                    <button type="submit" id="entrar"><a href="../vaga">Ver mais</a></button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/images/combate.png" class="card-media" alt="imagem aqui"/>
-                <div class="card-details">
-                    <h2 class="card-head">detales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus excepturi odit, unde praesentium qui mollitia suscipit 
-                        nemo debitis repudiandae cumque inventore voluptatem, nihil optio sapiente voluptas quo sunt. Rem, dolorum.</p>
-                </div>
-                <a href="../vaga" class="saiba">Saiba mais</a>
-                <div class="btn">
-                    <button type="submit" id="entrar"><a href="../vaga">Ver mais</a></button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/images/combate.png" class="card-media" alt="imagem aqui"/>
-                <div class="card-details">
-                    <h2 class="card-head">detales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus excepturi odit, unde praesentium qui mollitia suscipit 
-                        nemo debitis repudiandae cumque inventore voluptatem, nihil optio sapiente voluptas quo sunt. Rem, dolorum.</p>
-                </div>
-                <a href="../vaga" class="saiba">Saiba mais</a>
-                <div class="btn">
-                    <button type="submit" id="entrar"><a href="../vaga">Ver mais</a></button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/images/combate.png" class="card-media" alt="imagem aqui"/>
-                <div class="card-details">
-                    <h2 class="card-head">detales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus excepturi odit, unde praesentium qui mollitia suscipit 
-                        nemo debitis repudiandae cumque inventore voluptatem, nihil optio sapiente voluptas quo sunt. Rem, dolorum.</p>
-                </div>
-                <a href="../vaga" class="saiba">Saiba mais</a>
-                <div class="btn">
-                    <button type="submit" id="entrar"><a href="../vaga">Ver mais</a></button>
-                </div>
-            </div>
-        </div>
+         </div>
     </section>
     <!--footer aqui-->
+    <aside id="aviso">
+        <div class="infoADD">Como fazer uma pesquisa</div>
+        <div class="infoDesc"><p>Para fazer uma pesquisa, busque pelos tipos de vagas como web, desing e etc..</p></div>
+    </aside>
     <div class="loja">
         <p>Loja</p>
         <a href="../pages/loja"><img src="../images/carrinho-de-compras.png"></a>
@@ -154,5 +200,6 @@
     <!--footer aqui-->
     <script src="../js/carousel.js"></script>
     <script src="../js/load.js"></script>
+    <script src="../js/pesquisa.js"></script
 </body>
 </html>
