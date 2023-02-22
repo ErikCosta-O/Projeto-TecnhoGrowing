@@ -13,11 +13,16 @@ autorizadas podem modificar*/
 }
 .container1 .titulo{
     margin-top: 6vh;
-    font-size: 2.5rem;font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+    color: #212529;
 }
 .container1 .desc{
     margin-bottom: 15vh;
     font-size: 1.5rem;
+    text-align: left;
+    color: #212529;
 }
 .container2,.data{
     display: flex;
