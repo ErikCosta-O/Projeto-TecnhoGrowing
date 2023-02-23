@@ -26,6 +26,8 @@ router.get('/confirma', homeController.confirma)
 
 router.get('/finalizado',homeController.finalizado)
 
+router.get('/404',homeController.erro)
+
 router.get('/criarContaOng',ongController.contaOng)
 
 router.get('/criarContaUsuario',userController.contaUsuario)
