@@ -39,17 +39,18 @@
                 <p class="desc">Possui alguma duvida? preencha o formulario e o nosso time ira entrar em contato em breve 👍</p>
             </div>
             <div class="container2">
-                <form action="#">
+                <form action="https://formsubmit.co/erikoliveira.c@gmail.com" method="POST">
                     <div class="data">
-                        <input type="text" required placeholder="Nome Completo">
+                        <input type="text" name="nome" required placeholder="Nome Completo">
                     </div>
                     <div class="data">
-                        <input type="email" required placeholder="Seu Email">
+                        <input type="email" name="email" required placeholder="Seu Email">
                     </div>
                     <div class="data">
-                        <textarea name="" cols="30" rows="6" placeholder="Como podemos ajudar?"></textarea>
+                        <textarea name="message" cols="30" rows="6" placeholder="Como podemos ajudar?"></textarea>
+                        <input type="hidden" name="_captcha" value="false">
                     </div>
-                    <button type="submit" id="enviar"><a href="#">Enviar</a></button>
+                    <button type="submit" id="enviar">Enviar</button>
                 </form>
             </div>
         </div>
