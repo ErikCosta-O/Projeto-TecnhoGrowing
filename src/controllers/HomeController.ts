@@ -44,3 +44,6 @@ export const finalizado = (req:Request, res:Response) =>{
 export const confirma =(req:Request, res:Response)=>{
     res.render('pages/confirmacao')
 }
+export const erro =(req:Request, res:Response)=>{
+    res.render('pages/404')
+}
