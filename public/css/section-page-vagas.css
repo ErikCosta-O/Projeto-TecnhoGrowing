@@ -78,7 +78,7 @@ aside{
 @keyframes animacao { 
     from{ opacity:0 } 
     to{ opacity:1 }
-  }
+}
 .infoADD{
     color: #333;
     font-size: 1.3rem;
