@@ -28,9 +28,9 @@ router.get('/finalizado',homeController.finalizado)
 
 router.get('/404',homeController.erro)
 
-router.get('/criarContaOng',ongController.contaOng)
+router.get('/criar-conta-ong',ongController.contaOng)
 
-router.get('/criarContaUsuario',userController.contaUsuario)
+router.get('/criar-conta-voluntario',userController.contaUsuario)
 
 //rotas de visualização login e register
 router.get('/login',authController.login)
