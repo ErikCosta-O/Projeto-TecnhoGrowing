@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer.css">
+    <link rel="stylesheet" href="../css/criarVaga.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <link rel="icon" href="./assets/images/iconeSite.png">
+    <title>Techno Growingt</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <!--header aqui-->
+        <header>
+            <div class="Container">
+                <div class="logo">
+                    <img src="../images/logotipo_sem_ONG- sem fundo.png">
+                </div> 
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <a href="../header footer-Versão Final/PGinicial.html"><li>Home</li></a>
+                            <a href="../header footer-Versão Final/Login.html"><li>Entrar</li></a>
+                            <a href="..//vagas/vagas.html"><li>Vagas</li></a>
+                            <a href="../LOJA-PI/index.html"><li>Loja</li></a>
+                            <a href="../PG-sobre/index.html"><li>Sobre</li></a>
+                            <a href="../PG-Contato/index.html"><li>Contato</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header aqui-->
+        <!--Conteudo da pagina-->
+        <div class="geral">
+            <div class="container1">
+                <div class="texto">Crie sua Vaga</div>
+                <form action="../vaga-finalizada">
+                    <div class="data">
+                        <label>Titulo da vaga</label>
+                        <input type="text" placeholder="Titulo" required>
+                    </div>
+                    <div class="data">
+                        <label>Categoria da vaga</label>
+                        <select id="class" required>
+                            <option>...</option>
+                            <option value="">Web</option>
+                            <option value="">Desing</option>
+                            <option value="">Front-end</option>
+                            <option value="">Back-end</option>
+                        </select>
+                    </div>
+                    <div class="data">
+                        <label>Dias da semana</label>
+                        <input type="text" placeholder="Ex: segunda a sexta" required>
+                    </div>
+                    <div class="data">
+                        <label>Horas de Voluntariado</label>
+                        <input type="text" placeholder="Ex: 4 Horas" required>
+                    </div>
+                    <div class="data">
+                        <label>Descrição da Vaga</label>
+                        <textarea name="" id="" cols="10" rows="5" placeholder="Sobre Sua Ong" required></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" id="enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="desc">
+                <p class="cima">Oque ira acontecer depois ?</p>
+                <p>Ao criar sua vaga ela ira ficar disponivel em nosso site, para os Voluntarios possam se candidatar</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/load.js"></script>
+</body>
+</html>

@@ -47,3 +47,9 @@ export const confirma =(req:Request, res:Response)=>{
 export const erro =(req:Request, res:Response)=>{
     res.render('pages/404')
 }
+export const obrigado =(req:Request, res:Response)=>{
+    res.render('pages/obrigado')
+}
+export const vagaCriada = (req:Request, res:Response) =>{
+    res.render('pages/vagaCriada')
+}

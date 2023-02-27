@@ -28,7 +28,13 @@ router.get('/finalizado',homeController.finalizado)
 
 router.get('/404',homeController.erro)
 
+router.get('/obrigado',homeController.obrigado)
+
+router.get('/vaga-finalizada',homeController.vagaCriada)
+
 router.get('/criar-conta-ong',ongController.contaOng)
+
+router.get('/criar-vaga',ongController.criarVaga)
 
 router.get('/criar-conta-voluntario',userController.contaUsuario)
 
