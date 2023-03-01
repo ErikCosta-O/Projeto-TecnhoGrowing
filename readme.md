@@ -43,3 +43,4 @@ Na parte do desktop ira ser apenas para os funcionários, lá será possível fa
 <a href="https://github.com/srconsiglio">srconsiglio</a>/
 <a href="https://github.com/ViNovaes">ViNovaes</a>/
 <a href="https://github.com/1337thai">1337thai</a>
+
