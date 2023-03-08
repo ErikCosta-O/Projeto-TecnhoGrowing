@@ -1,3 +1,3 @@
-setTimeout(function() {
+function redirecionar() {
     window.location.href = "/";
-}, 5000);
+};
